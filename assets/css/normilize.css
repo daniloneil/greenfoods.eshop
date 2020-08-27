@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1.5;
+    font: inherit;
+    vertical-align: baseline;
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+.page {
+    /* overflow: hidden; */
+}
+
+.wrapper {
+    /* display: flex;
+    flex-direction: column; */
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background: #c2fa3e; 
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+    letter-spacing: 3px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+button,
+input[type=submit] {
+    border: none;
+    outline: none;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+a {
+    text-decoration: none;
+    outline: 0;
+    text-transform: uppercase;
+}
+
+a:hover {
+    border-color: transparent;
+}
+
+ol,
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    /* display: block; */
+    height: auto;
+}
+
+
+.container {
+    margin: 0 auto;
+    padding: 0 100px;
+    position: relative;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+input,
+select,
+textarea {
+    outline: initial;
+}
